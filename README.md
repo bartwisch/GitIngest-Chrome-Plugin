@@ -10,6 +10,10 @@ A Chrome browser extension that enhances GitHub repository pages by providing a 
   <img src="screenshots/screenshot.png" alt="GitIngest Extension Screenshot" width="800"/>
 </p>
 
+<p align="center">
+  <img src="screenshots/screenshot2.png" alt="GitIngest Extension in Action" width="800"/>
+</p>
+
 ## Features
 
 - Adds an "Ingest" button next to GitHub's native buttons
