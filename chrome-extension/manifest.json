@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "GitIngest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "View GitHub repositories on GitIngest.com",
   "author": "bartwisch666@gmail.com",
   "homepage_url": "https://github.com/bartwisch/GitIngest-Chrome-Plugin",
