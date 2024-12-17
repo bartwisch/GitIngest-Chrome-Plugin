@@ -3,6 +3,11 @@
   "name": "GitIngest",
   "version": "1.0.0",
   "description": "View GitHub repositories on GitIngest.com",
+  "author": "bartwisch666@gmail.com",
+  "homepage_url": "https://github.com/bartwisch/GitIngest-Chrome-Plugin",
+  "developer": {
+    "url": "https://linktr.ee/hugobartwisch"
+  },
   "permissions": [
     "activeTab",
     "scripting"
