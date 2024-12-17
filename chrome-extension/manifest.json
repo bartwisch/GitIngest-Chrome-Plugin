@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "GitIngest",
+  "version": "1.0.0",
+  "description": "View GitHub repositories on GitIngest.com",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://github.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "css": ["styles.css"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
