@@ -7,7 +7,7 @@
 A Chrome browser extension that enhances GitHub repository pages by providing a direct link to view repositories on GitIngest.com. With a single click, transform any GitHub repository URL into its GitIngest equivalent.
 
 <p align="center">
-  <img src="screenshots/screenshot2.png" alt="GitIngest Extension in Action" width="800"/>
+  <img src="assets/screenshots/screenshot.png" alt="GitIngest Extension in Action" width="800"/>
 </p>
 
 ## Features

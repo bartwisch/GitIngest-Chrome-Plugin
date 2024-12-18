@@ -1,0 +1,9 @@
+Host Permission Justification:
+The extension requires access to github.com/* to enhance the GitHub repository interface by injecting an "Ingest" button next to the repository controls. This button allows users to quickly view the current repository on GitIngest.com. The host permission is necessary to:
+1. Detect when users are viewing a repository page
+2. Insert the Ingest button into GitHub's navigation controls
+3. Transform GitHub URLs to their GitIngest equivalents
+4. Monitor for dynamic page updates to maintain button functionality
+
+Remote Code Justification:
+No, I am not using remote code. All functionality is contained within the extension package. The extension only transforms GitHub URLs to GitIngest URLs and does not load or execute any external scripts.
