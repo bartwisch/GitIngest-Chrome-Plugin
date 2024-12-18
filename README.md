@@ -1,6 +1,5 @@
 # GitIngest Chrome Extension
 
-[![Chrome Web Store](https://img.shields.io/badge/Chrome-Extension-green.svg)](https://chrome.google.com/webstore)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow.svg)](https://www.javascript.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./GitIngest-v1.0.0/LICENSE)
 
@@ -21,32 +20,30 @@ A Chrome browser extension that enhances GitHub repository pages by providing a 
 
 ## Installation
 
-### Chrome Web Store (Recommended)
-1. Visit the [GitIngest Extension](https://chrome.google.com/webstore) page
-2. Click "Add to Chrome"
-3. Confirm the installation
+Currently, the extension is available for manual installation only. Chrome Web Store release is coming soon!
 
-### Manual Installation (Development)
+1. Download the latest release:
+   - Go to the [Releases](https://github.com/bartwisch/gitingestchromeplugin/releases) page
+   - Download the latest `GitIngest-v1.0.0.zip` file
+   - Extract the ZIP file to a location of your choice
 
-1. Clone this repository:
+   Or clone the repository:
    ```bash
    git clone https://github.com/bartwisch/gitingestchromeplugin.git
    cd gitingestchromeplugin
    ```
 
-2. Generate extension icons:
-   - Open `GitIngest-v1.0.0/icon-generator.html` in your browser
-   - Right-click each icon and save them as:
-     - `icon16.png`
-     - `icon48.png`
-     - `icon128.png`
-   - Save icons in the `GitIngest-v1.0.0` directory
-
-3. Load the extension in Chrome:
-   - Navigate to `chrome://extensions/`
-   - Enable "Developer mode" (top right)
+2. Load the extension in Chrome:
+   - Open Chrome and navigate to `chrome://extensions/`
+   - Enable "Developer mode" (toggle switch in top right)
    - Click "Load unpacked"
    - Select the `GitIngest-v1.0.0` directory
+   - The extension icon should appear in your Chrome toolbar
+
+3. Verify installation:
+   - Visit any GitHub repository
+   - You should see the "Ingest" button next to GitHub's native buttons
+   - If the button doesn't appear, try refreshing the page
 
 ## Usage
 
@@ -104,7 +101,6 @@ This project is licensed under the MIT License - see the [LICENSE](GitIngest-v1.
 
 - [GitIngest Website](https://gitingest.com)
 - [Report Issues](https://github.com/bartwisch/gitingestchromeplugin/issues)
-- [Chrome Web Store](https://chrome.google.com/webstore)
 
 ## Acknowledgments
 
