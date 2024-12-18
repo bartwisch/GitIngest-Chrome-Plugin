@@ -2,7 +2,7 @@
 
 [![Chrome Web Store](https://img.shields.io/badge/Chrome-Extension-green.svg)](https://chrome.google.com/webstore)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow.svg)](https://www.javascript.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./chrome-extension/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./GitIngest-v1.0.0/LICENSE)
 
 A Chrome browser extension that enhances GitHub repository pages by providing a direct link to view repositories on GitIngest.com. With a single click, transform any GitHub repository URL into its GitIngest equivalent.
 
@@ -35,18 +35,18 @@ A Chrome browser extension that enhances GitHub repository pages by providing a 
    ```
 
 2. Generate extension icons:
-   - Open `chrome-extension/icon-generator.html` in your browser
+   - Open `GitIngest-v1.0.0/icon-generator.html` in your browser
    - Right-click each icon and save them as:
      - `icon16.png`
      - `icon48.png`
      - `icon128.png`
-   - Save icons in the `chrome-extension` directory
+   - Save icons in the `GitIngest-v1.0.0` directory
 
 3. Load the extension in Chrome:
    - Navigate to `chrome://extensions/`
    - Enable "Developer mode" (top right)
    - Click "Load unpacked"
-   - Select the `chrome-extension` directory
+   - Select the `GitIngest-v1.0.0` directory
 
 ## Usage
 
@@ -59,13 +59,20 @@ A Chrome browser extension that enhances GitHub repository pages by providing a 
 ### Project Structure
 ```
 .
-├── README.md                 # Project documentation
-└── chrome-extension/         # Extension source code
-    ├── manifest.json         # Extension configuration
-    ├── content.js           # Main extension logic
-    ├── styles.css           # Button styling
-    ├── icon-generator.html  # Tool to generate icons
-    └── LICENSE             # MIT License
+├── README.md                    # Project documentation
+├── assets/                      # Project assets
+│   ├── screenshots/            # Extension screenshots
+│   ├── markups/               # Documentation markups
+│   └── chromestore release/   # Chrome Web Store assets
+└── GitIngest-v1.0.0/          # Extension source code
+    ├── manifest.json          # Extension configuration
+    ├── content.js            # Main extension logic
+    ├── styles.css            # Button styling
+    ├── icon-generator.html   # Tool to generate icons
+    ├── icon16.png           # Extension icons
+    ├── icon48.png           # Extension icons
+    ├── icon128.png          # Extension icons
+    └── LICENSE              # MIT License
 ```
 
 ### Local Development
@@ -75,10 +82,9 @@ A Chrome browser extension that enhances GitHub repository pages by providing a 
 
 ### Building for Production
 1. Update version in `manifest.json`
-2. Create a zip file of the `chrome-extension` directory:
-   ```bash
-   zip -r gitingest-vX.X.X.zip chrome-extension/
-   ```
+2. Create a new versioned directory (e.g., `GitIngest-v1.0.1`)
+3. Copy the extension files to the new directory
+4. Test thoroughly before publishing
 
 ## Contributing
 
@@ -92,7 +98,7 @@ Contributions are welcome! Here's how you can help:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](chrome-extension/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](GitIngest-v1.0.0/LICENSE) file for details.
 
 ## Links
 
