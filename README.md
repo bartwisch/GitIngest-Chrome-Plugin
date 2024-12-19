@@ -20,7 +20,13 @@ A Chrome browser extension that enhances GitHub repository pages by providing a 
 
 ## Installation
 
-Currently, the extension is available for manual installation only. Chrome Web Store release is coming soon!
+You can install GitIngest directly from the Chrome Web Store:
+
+1. Visit the [Chrome Web Store page](https://chromewebstore.google.com/detail/gitingest/iejmgcbeceleldhbnagkhjigfmpjlbea)
+2. Click "Add to Chrome" to install the extension
+3. The extension icon should appear in your Chrome toolbar
+
+Alternatively, you can install manually:
 
 1. Download the latest release:
    - Go to the [Releases](https://github.com/bartwisch/gitingestchromeplugin/releases) page
