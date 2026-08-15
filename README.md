@@ -1,3 +1,5 @@
+
+
 # GitIngest Chrome Extension
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow.svg)](https://www.javascript.com/)
@@ -55,7 +57,7 @@ Alternatively, you can install manually:
 
 1. Visit any GitHub repository
 2. Look for the "Ingest" button next to the "Code" button
-3. Click to view the repository on GitIngest.com
+3. Click to open the repository on GitIngest.com in a new tab
 
 ## Development
 
